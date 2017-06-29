@@ -1,0 +1,22 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "Lending styles for Leonisa 2017",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "node-sass": "^4.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compilar": "node-sass --output-style compressed main.scss > dist\\style.min.css",
+    "test": "node-sass --output-style expanded main.scss > test\\style.css"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "William Rojas",
+  "license": "GPL-3.0"
+}
